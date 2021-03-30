@@ -67,3 +67,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
+.imghovver {
+    transform: scale(0.9);
+}
+.imghovver :hover {
+    transition:cubic-bezier(0.755, 0.05, 0.855, 0.06) 0.2s;
+}
